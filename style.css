@@ -77,7 +77,7 @@ section h3 {
 }
 
 .about,
-.service {
+.skill {
   padding-bottom: 100px;
 }
 
@@ -89,7 +89,7 @@ section h3 {
   text-align: center;
 }
 
-.service {
+.skill {
   background-color: #f9f9f9;
 }
 
@@ -167,4 +167,20 @@ footer {
   background-color: #277bc0;
   color: #fff;
   text-align: center;
+}
+
+/* make in one line */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+article {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  float: left;
 }
